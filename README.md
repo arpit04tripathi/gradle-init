@@ -41,6 +41,7 @@ Select application structure:
 Enter selection (default: Single application project) [1..2] 
 ```
 
+
 ## Issues
 
 > .idea not removed even after .ignore
