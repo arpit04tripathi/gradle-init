@@ -14,12 +14,23 @@ Below are the types of project we can create using `gradle init`
 4. Basic (build structure only)
 
 ```
+$ mkdir gradle-init-basic
+$ cd gradle-init-basic
+$ gradle init
+
 Select type of build to generate:
   1: Application
   2: Library
   3: Gradle plugin
   4: Basic (build structure only)
-Enter selection (default: Application) [1..4]
+Enter selection (default: Application) [1..4] 4
+
+Project name (default: gradle-init-basic): 
+
+Select build script DSL:
+  1: Kotlin
+  2: Groovy
+Enter selection (default: Kotlin) [1..2] 2
 ```
 
 For application, you can select between
@@ -29,6 +40,7 @@ Select application structure:
   2: Application and library project
 Enter selection (default: Single application project) [1..2] 
 ```
+
 
 ## Issues
 
