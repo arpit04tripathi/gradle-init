@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 
-separator() {
-  echo '=================================================================================';
+separator_start() {
+  echo '=================================================================================v';
+}
+
+separator_end() {
+  echo '=================================================================================^';
 }
 
 banner() {
@@ -10,8 +14,10 @@ banner() {
   separator
 }
 
-banner 'command > git fetch --all -p; git pull; git status;'
+separator_start
+echo 'command > git fetch --all -p; git pull; git status;'
 git fetch --all -p; git pull; git status;
 
-banner 'command > git merge origin/main'
+echo 'command > git merge origin/main'
 git merge origin/main;
+separator_end
